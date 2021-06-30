@@ -10,47 +10,52 @@
 </head>
 <body>
     <h1 class="title">Quiz App</h1>
-      <section class="role">
-          <ol>
-                <li>You should read quastion befor selete anwser.</li>
-                <li> You should selete one option.</li>
-                <li>You have 10 questions MC.</li>
-                <li>To START you must enter your name. </li>
-          </ol>
-      </section>  
-      <section class="leaderbored">
-          <table>
-              <tr>
-                  <th>Name</th>
-                  <th>Score</th>
+    <section class="panel">
+        <section class="role">
+            <h3 class="roles-text">Roles:</h3>
+            <ol>
+                  <li>You should read quastion befor selete anwser.</li>
+                  <li> You should selete one option.</li>
+                  <li>You have  <strong>10</strong> questions MC.</li>
+                  <li>To <strong>START</strong> you must enter your name. </li>
+                  <li>"1" it is mean <strong>TRUE</strong> , "0" it is mean <strong>FALSE</strong>.</li>
+
+            </ol>
+        </section>  
+        <section class="leaderbored">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>Mohammed</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                  <td>Sami</td>
+                  <td>5</td>
               </tr>
-              <tr>
-                  <td>Mohammed</td>
-                  <td>12</td>
-              </tr>
-              <tr>
-                <td>Sami</td>
-                <td>5</td>
-            </tr>
-            
-          </table>
-      </section>
+              
+            </table>
+        </section>
+    </section>
  
     <button class="start-btn">Start Quiz</button>
 
     <section class="name-box">
         <article class="info-name">
             <label class="name">Enter Your Name:</label>
-            <input type="text" placeholder="Enter your Name" />
+            <input type="text"  class="input-name" placeholder="Enter your Name" value="" />
         </article>
         <article class="buttons">
             <button class="quit">Exit Quiz</button>
-            <button class="restart">Continue</button>
+            <button class="continue">Continue</button>
         </article>
     </section>
 
     <div class="quiz-box">
-        <section>
+        <section class="quiz">
             <div class="question">
                 <!-- here i will show Question form javaScript-->
             </div>
@@ -64,6 +69,7 @@
                 <!-- Here i will show Question Count Number from JavaScript -->
             </div>
             <button class="next-btn">Next Que</button>
+
         </footer>
     </div>
 
