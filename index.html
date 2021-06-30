@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 class="title">Quiz App</h1>
+      <section class="role">
+          <ol>
+                <li>You should read quastion befor selete anwser.</li>
+                <li> You should selete one option.</li>
+                <li>You have 10 questions MC.</li>
+                <li>To START you must enter your name. </li>
+          </ol>
+      </section>  
+      <section class="leaderbored">
+          <table>
+              <tr>
+                  <th>Name</th>
+                  <th>Score</th>
+              </tr>
+              <tr>
+                  <td>Mohammed</td>
+                  <td>12</td>
+              </tr>
+              <tr>
+                <td>Sami</td>
+                <td>5</td>
+            </tr>
+            
+          </table>
+      </section>
+ 
+    <button class="start-btn">Start Quiz</button>
+
+    <section class="name-box">
+        <article class="info-name">
+            <label class="name">Enter Your Name:</label>
+            <input type="text" placeholder="Enter your Name" />
+        </article>
+        <article class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </article>
+    </section>
+
+    <div class="quiz-box">
+        <section>
+            <div class="question">
+                <!-- here i will show Question form javaScript-->
+            </div>
+            <div class="answers">
+                <!-- here i will show all  options from JavaScript -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="total-questions">
+                <!-- Here i will show Question Count Number from JavaScript -->
+            </div>
+            <button class="next-btn">Next Que</button>
+        </footer>
+    </div>
+
+    <div class="result-box">
+        <p class="complete-text">You've completed the Quiz!</p>
+        <div class="score-text">
+            <!-- Here i will show Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
